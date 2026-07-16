@@ -1,7 +1,8 @@
 ## Using PCA to Explore Breast Tumor Data and Predict Malignancy
 
-In this project, I utilized Principal Component Analysis (PCA), a dimensionality reduction technique, on the **Breast Cancer Wisconsin** dataset, a dataset of breast tumor measurments/readings and a classification of malignant or benign.
+Goals:
+- Conduct exploratory data analysis of the **Breast Cancer Wisconson** dataset, a dataset of table tumor measurments/readings and a classification of malignant or benign, to understand feature distributions and multicollinearity
+- Use **Principal Component Analysis (PCA)** to reduce the dimensionality and multicollinearity of the dataset, analyze how much variance is captured by the principal components
+- Train **Logistic Regression** and **Gaussian Naive Bayes** classification models using both the original features and the principal components, compare model performance.
 
-I explored the multicollinearity of the original data, the variance captured by the principal components, and model performance using the principal components vs the original features.
-
-Completed as part of the **Numerical Linear Algebra for Big Data** course at **Stevens Institute of Technology**
+Developed as part of the **Numerical Linear Algebra for Big Data** course at **Stevens Institute of Technology**
